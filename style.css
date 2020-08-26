@@ -1,0 +1,141 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: rgb(224, 224, 224);
+}
+
+header {
+  background: rgb(255, 255, 255);
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #636363;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+a {
+  color: #333333;
+}
+
+/* Selecting elements by class */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* Selecting elements by ID */
+#main-summary {
+    width: 100%;
+    background-color: rgb(255, 255, 255)
+}
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+.box {
+    height: 400px;
+    padding: 20px;
+    color: #fff;
+    background: deepskyblue;
+  }
+  
+  .margin-top-80 {
+    margin-top: 80px;
+  }
+  
+
+#figure {
+  position: relative;
+}
+
+#title-name {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#background-boxes {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#graph-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.navbar-custom {
+    background-color: #00fff2;
+}
+
+
+.navbar-nav
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 100%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: right;
+  }
+
+
+  .grid-container {
+    display: grid;
+    height: 400px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.836);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .frame {
+    width: 175px;
+    height: 175px;
+    border: 3px solid #ccc;
+    background: #eee;
+    margin: auto;
+    padding: 5px 5px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
